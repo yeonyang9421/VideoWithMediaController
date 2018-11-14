@@ -72,8 +72,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     break;
                 }
         }
-
-
     }
 
     @Override
@@ -91,7 +89,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     Toast.makeText(this, "" + videoUri, Toast.LENGTH_SHORT).show();
                     mVideoView.setVideoURI(videoUri);
                     mVideoView.start();
-
                 }
         }
 
